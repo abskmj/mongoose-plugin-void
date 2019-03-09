@@ -1,0 +1,24 @@
+{
+  "name": "@abskmj/mongoose-plugin-void",
+  "version": "1.0.0",
+  "description": "Mongoose plugin to add soft delete functaionality on models",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "abskmj@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abskmj/mongoose-plugin-void.git"
+  },
+  "peerDependencies": {
+    "mongoose": "x"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "mockgoose": "^8.0.1",
+    "mongoose": "^5.4.18"
+  }
+}
